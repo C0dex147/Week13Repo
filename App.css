@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, rgb(138, 75, 165), rgb(241, 31, 206) 48%, yellow);
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid rgb(252, 251, 251);
+  border-radius: 5px;
+  background-image: linear-gradient(79deg, rgb(136, 136, 250), pink 48%, yellow);
+  margin-bottom: 20px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+}
+
+.navbar li {
+  margin-right: 10px;
+ 
+}
+.auto-form-container, .login-form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.auto-form-container{
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+h3{
+  font-size: 30px;  
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover{
+  background-color: rgb(171, 248, 248);
+}
